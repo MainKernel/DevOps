@@ -1,14 +1,16 @@
-To destriy vm and all vagrant configurations:
+## To destriy vm and all vagrant configurations:
 
-vagrant destroy --force
+* vagrant destroy --force
 
-rm -rf .vagrant
+* rm -rf .vagrant
 
-vagrant global-status --prune
+* vagrant global-status --prune
 
-To start virtual server
+## To start virtual server
 
-vagrant up
+* vagrant up
 
-To init vagrant
-vagrant init "vagrant box"
+## To init vagrant
+* vagrant init "vagrant box"
+
+where vagrantbox - box from vagrant cloud
